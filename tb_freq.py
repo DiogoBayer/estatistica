@@ -7,4 +7,4 @@ df
 
 #%%
 
-df.groupby()
+df.groupby([""])
