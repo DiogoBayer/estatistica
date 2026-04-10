@@ -2,9 +2,9 @@
 
 import pandas as pd
 
-df = pd.read_csv("data/clientes.csv")
+df = pd.read_csv("data/points_tmw.csv")
 df
 
 #%%
 
-df.groupby([""])
+df.groupby(["descProduto"])[["idTransacao"]].count()
